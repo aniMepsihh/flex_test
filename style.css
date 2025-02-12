@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    height: 200px; 
+    }
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    text-align: center
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
